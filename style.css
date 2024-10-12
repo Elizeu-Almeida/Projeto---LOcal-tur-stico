@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   background-color: #F5F4F0;
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
@@ -14,7 +15,7 @@ img {
 .principal{
   width: 1120px;
   margin: auto;
-  padding: 74px 80px 137px;
+  padding: 74px 80px 79px;
 }
 
 
@@ -22,7 +23,6 @@ h1 {
   padding: 8px 0 40px 0;
   font-size: 36px;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
   color: #1B1B1B;
 }
 
@@ -30,6 +30,26 @@ h2 {
   padding-top: 2px;
   color: #1B1B1B;
 }
+
+h3 {
+  color: #1B1B1B;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+
+p {
+  font-size: 16px;
+  padding-top: 8px;
+  color: #333333;
+}
+
+main div img {
+  height: 375px;
+  object-fit: cover; 
+  margin-top: 44px;
+}
+
 
 .headline {
   text-transform: uppercase;
@@ -42,15 +62,13 @@ h2 {
 .subtitle {
   text-align: center;
   padding-top: 24px;
+  padding-bottom: 4px;
   font-style: italic;
+  
 }
 
 .paragraph{
-  font-size: 16px;
-  padding-top: 8px;
-  color: #333333;
-
-  
+  margin-bottom: 64px;
 }
 
 .divider {
@@ -58,4 +76,53 @@ h2 {
   height: 1px;
   margin: 36px 0;
   background-color: #d9d9d9;
+}
+
+#headline-hist {
+  padding-top: 28px;
+}
+
+
+li {
+  list-style: none;
+}
+
+
+
+.list-templos {
+  padding: 20px 0 4px;
+}
+
+.ul-templo {
+  font-weight: bold;
+}
+
+.ul-templo p {
+  color: #0C51A7;
+  padding-bottom: 48px;
+}
+
+.ul-parque {
+  font-weight: bold;
+}
+
+.ul-parque .color1 {
+  color: #591B98;
+}
+
+.ul-parque .color2 {
+  color: #E5245E;
+}
+
+.ul-parque .color3 {
+  color: #E95E10;
+}
+
+.frase-final {
+  text-align: center;
+}
+
+.rodape {
+  text-align: center;
+  padding-bottom: 48px;
 }
